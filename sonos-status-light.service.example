@@ -1,0 +1,14 @@
+[Unit]
+Description=BESS Status Light
+After=multi-user.target
+
+[Service]
+WorkingDirectory=/home/pi/bess-status-light
+ExecStart=/usr/bin/python3 /home/pi/bess-status-light/bess_status_light.py
+Restart=on-failure
+RestartSec=60
+User=pi
+Group=pi
+
+[Install]
+WantedBy=multi-user.target

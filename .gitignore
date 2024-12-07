@@ -1,0 +1,5 @@
+.mypy_cache
+__pycache__
+
+# contains API key and device serial number:
+alpha_ess_config.py

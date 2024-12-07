@@ -1,0 +1,4 @@
+# save to alpha_ess_config.py and replace with real values
+alpha_ess_app_id = "alpha0123456789abcdef"
+alpha_ess_app_secret = "0123456789abcdef0123456789abcdef"
+alpha_ess_system_serial_num = "ALB001234567890"
