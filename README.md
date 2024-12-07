@@ -1,11 +1,11 @@
 
-# Home battery + Sonos
+# AlphaESS Tools
 
-I have rooftop solar and a battery which are connected to the AlphaESS cloud monitoring. 
+I have rooftop solar and a battery which are connected to the AlphaESS cloud platform. 
 
 This repo contains a simple python client for the Alpha ESS API (https://open.alphaess.com/api), and some scripts that use the client:
  * Sonos status light
- * Bulk download
+ * Bulk download of home energy data
 
 
 ## Sonos status light
